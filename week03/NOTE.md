@@ -22,3 +22,12 @@ public void recursion(int level, int param) {
 }
 ```
 
+#### 周总结
+
+本周都是递归相关的问题，不断调用自己的过程中，使用递归模板 + 特别要注意， drill down 以及 容易忽视的 restore的过程。
+
+在国际站中，大神总结了所有的关于 组合相关的题目及解法，很类似，值得学习
+
+https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
+
+
