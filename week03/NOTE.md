@@ -22,6 +22,24 @@ public void recursion(int level, int param) {
 }
 ```
 
+#### 分治模板
+```java
+public int divideConquer(Problem problem) {
+    if (proble == null) {
+        int res = processLastResult();
+        return;
+    }
+    subProblem = splitProblem(problem);
+    
+    res0 = divideConquer(subProblem[0]);
+    res1 = divideConquer(subProblem[1]);
+    ......
+    
+    res = processResult(res0, res1);
+    return res;
+}
+```
+
 #### 周总结
 
 本周都是递归相关的问题，不断调用自己的过程中，使用递归模板 + 特别要注意， drill down 以及 容易忽视的 restore的过程。
