@@ -60,5 +60,17 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 }
 ```
 
+#### 二分法查找半有序数组中间无序的地方
 
+思路与方法：
+
+```java
+public class Solution {
+  
+}
+```
+
+本周总结
+
+五毒给我的感觉还是代码能力提升了不少，算法能力还需要加强，希望自己每天的题量还得提升。
 
