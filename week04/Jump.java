@@ -25,7 +25,7 @@ public class Jump {
         int currFastest = 0;
         int steps = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length -1; i++) {
             currFastest = Math.max(currFastest, i + nums[i]);
             if (i == currEnd) {
                 steps++;
