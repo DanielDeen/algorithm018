@@ -19,4 +19,22 @@ public class Jump {
         }
         return steps;
     }
+
+    public int jump2(int[] nums) {
+        int currEnd = 0;
+        int currFastest = 0;
+        int steps = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            currFastest = Math.max(currFastest, i + nums[i]);
+            if (i == currEnd) {
+                steps++;
+                currEnd = currFastest;
+            }
+        }
+
+        return steps;
+
+        return steps;
+    }
 }
